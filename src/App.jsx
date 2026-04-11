@@ -1,7 +1,7 @@
 
 import { useState } from "react";
-import Dashboard from "./pages/Dashboard";
-import Leads from "./pages/Leads";
+import Dashboard from "./Dashboard.jsx";
+import Leads from "./Leads.jsx";
 
 export default function App(){
   const [page,setPage]=useState("home");
