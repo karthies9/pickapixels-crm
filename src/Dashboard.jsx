@@ -1,5 +1,5 @@
 
-import { useStore } from "../store/useStore";
+import { useStore } from "./store/useStore.js";
 
 export default function Dashboard(){
   const {leads}=useStore();
