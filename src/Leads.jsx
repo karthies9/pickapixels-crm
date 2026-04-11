@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { useStore } from "../store/useStore";
+import { useStore } from "./store/useStore.js";
 
 export default function Leads(){
   const {leads,setLeads}=useStore();
